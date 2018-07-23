@@ -1,0 +1,12 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/javascript-god/react-project.git",
+  "author": "Satnam Singh",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
