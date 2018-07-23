@@ -16,11 +16,10 @@ function multiply(a,b){
 
 
 
-// module.exports = {
-//     add,
-//     subtract,
-//     divide,
-//     multiply
-// }
+module.exports = {
+    add,
+    subtract,
+    divide,
+    multiply
+}
 
-export divide;
