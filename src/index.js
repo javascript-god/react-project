@@ -1,10 +1,13 @@
-import { multiply } from './maths';
-import { createH1 } from './h1';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const maths = require('./maths.js');
-console.log(maths.multiply(5,4));
+function SatnamsReactApp() {
+    return (
+        <div className="Sat">
+        <h1>Hello React</h1>
+        </div>
+    );
+}
 
-createH1('Hi world');
-
-
-
+const root = document.getElementById('root');
+ReactDOM.render( <SatnamsReactApp />, root)
